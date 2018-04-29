@@ -1,0 +1,29 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+g_ucTempbuf                                                       0x03FE      20
+rx_buffer                                                         0x0412       8
+_base_y                                                           0x041A       4
+_lcd_y                                                            0x041E       1
+_lcd_maxx                                                         0x041F       1
+_seed                                                             0x0420       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+tag_code                                                          0x0000       4
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+lock                                                              R2.0      1bit
+status                                                            R5           1
+i                                                                 R4           1
+st                                                                R7           1
+menu_count                                                        R6           1
+tag_read_counter                                                  R8,R9        2
+rx_wr_index                                                       R11          1
+rx_rd_index                                                       R10          1
+rx_counter                                                        R13          1
+rx_buffer_overflow                                                R2.1      1bit
+_lcd_x                                                            R12          1
